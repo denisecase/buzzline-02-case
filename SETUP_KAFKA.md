@@ -17,9 +17,32 @@ Launch WSL. Open a PowerShell terminal in VS Code. Run the following command:
 wsl
 ````
 
+<details> <summary> WSL Trouble? (Expand if needed)</summary>
+
+<hr>
+  
+> If wsl is not recognized, install Ubuntu with:
+
+```powershell
+wsl --install -d Ubuntu
+```
+
+> **Restart** when prompted. See complete instructions at [https://github.com/denisecase/pro-analytics-01/blob/main/01-machine-setup/03c-windows-install-python-git-vscode.md](https://github.com/denisecase/pro-analytics-01/blob/main/01-machine-setup/03c-windows-install-python-git-vscode.md).
+
+> If you get **virtualization errors**, you may need to reboot and enable virtualization in your BIOS/UEFI. 
+> On most PCs this is Intel VT-x or AMD-V.
+> Look for "Virtualization Technology" and turn it ON.
+> Work with your favorite AI assistant for additional help. 
+> After enabling, **restart** Windows and try again.
+
+<hr>
+</details>
+
 You should now be in a Linux shell (prompt shows something like `username@DESKTOP:.../buzzline-02-case$`). 
 
 Do **all** steps below in this WSL shell.
+
+
 
 ---
 
